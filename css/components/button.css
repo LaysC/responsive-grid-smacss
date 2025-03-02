@@ -1,0 +1,44 @@
+.button {
+    background-color: var(--accent-medium);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid var(--accent-dark);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: var(--earthy-green);
+    border-color: var(--deep-green);
+    transform: scale(1.05);
+}
+
+.button:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.5s, background-color 0.3s;
+    opacity: 0;
+    display: none;
+}
+
+.back-to-top.visible {
+    display: block;
+    opacity: 1;
+}
+
+.back-to-top:hover {
+    background-color: var(--highlight-color);
+}

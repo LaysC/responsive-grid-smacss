@@ -1,0 +1,22 @@
+:root {
+        --primary-color: #48440e;
+        --secondary-color: #d1ba52;
+        
+        --accent-dark: #4b440d;
+        --accent-medium: #948524;
+        --accent-light: #a4b022;
+    
+        --earthy-green: #728316;
+        --deep-green: #121305;
+    
+        --neutral-light: #ead7c0;
+        --neutral-medium: #686954;
+        --neutral-dark: #909896;
+    
+        --highlight-color: #e46404;
+    
+        --font-family: 'Roboto', sans-serif;
+        --font-size: 16px;
+        --background-color: #f4f4f4;
+    }
+    
